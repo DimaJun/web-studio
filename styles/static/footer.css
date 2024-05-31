@@ -1,0 +1,22 @@
+/* Footer */
+
+.footer {
+    padding-block: 100px;
+    background-color: var(--color-navy-blue);
+    color: var(--color-cloud);
+}
+
+.footer-text {
+    max-width: 264px;
+}
+
+.footer__logo {
+    display: inline-block;
+    margin-bottom: 16px;
+    color: var(--color-white);
+}
+
+.footer__descr {
+    line-height: 1.5;
+    letter-spacing: 0.32px;
+}

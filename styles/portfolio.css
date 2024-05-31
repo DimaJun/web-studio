@@ -1,0 +1,75 @@
+@import "static/header.css";
+@import "static/footer.css";
+@import "normalize.css";
+@import "static/vars.css";
+@import "static/default.css";
+
+/* elements */
+
+.tab-button {
+  font-family: var(--font-family-base);
+  padding: 12px 24px;
+  color: var(--color-iris);
+  letter-spacing: 0.64px;
+  font-weight: 500;
+  border: 1px solid var(--color-cornflower);
+  border-radius: 4px;
+  background-color: var(--color-cloud);
+  cursor: pointer;
+}
+
+.tab-button:hover {
+  color: var(--color-white);
+  background-color: var(--color-ocean);
+  -webkit-box-shadow: 0px 8px 10px 0px rgba(0, 0, 0, 0.17);
+  -moz-box-shadow: 0px 8px 10px 0px rgba(0, 0, 0, 0.17);
+  box-shadow: 0px 8px 10px 0px rgba(0, 0, 0, 0.17);
+  border-color: var(--color-iris);
+}
+
+.tab-button.active {
+  color: var(--color-white);
+  background-color: var(--color-ocean);
+  -webkit-box-shadow: 0px 8px 10px 0px rgba(0, 0, 0, 0.17);
+  -moz-box-shadow: 0px 8px 10px 0px rgba(0, 0, 0, 0.17);
+  box-shadow: 0px 8px 10px 0px rgba(0, 0, 0, 0.17);
+  border-color: var(--color-iris);
+}
+
+/* header */
+.header {
+  border-bottom: 2px solid var(--color-cornflower);
+}
+
+/* main */
+.main {
+  padding-block: 96px 120px;
+}
+
+/* portfolio */
+.portfolio-filters {
+  justify-content: center;
+  column-gap: 24px;
+  margin-bottom: 72px;
+}
+
+.portfolio-list {
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 24px;
+  row-gap: 48px;
+}
+
+.portfolio-project__descr {
+  padding: 32px 16px;
+  border: 1px solid var(--color-cornflower);
+  border-top: 0;
+}
+
+.portfolio-project__name {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.4px;
+  color: var(--color-navy-blue);
+  margin-bottom: 8px;
+}

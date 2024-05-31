@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles/portfolio.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,800;1,800&family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Portfolio</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="container flex">
+        <div class="header-navigation flex">
+          <a href="index.html" class="header__logo logo">
+            <span class="header__logo-highlighted">Web</span>Studio
+          </a>
+          <nav class="header__nav">
+            <ul class="header-nav__list flex">
+              <li class="header-nav__item">
+                <a href="#!" class="header-nav__link">Studio</a>
+              </li>
+              <li class="header-nav__item">
+                <a href="portfolio.html" class="header-nav__link">Portfolio</a>
+              </li>
+              <li class="header-nav__item">
+                <a href="#!" class="header-nav__link">Contacts</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+        <div class="header-info flex">
+          <a href="mailto:info@devstudio.com" class="header__mail"
+            >info@devstudio.com</a
+          >
+          <a href="tel:+110001111111" class="header__tel"
+            >+11 (000) 111-11-11</a
+          >
+        </div>
+      </div>
+    </header>
+
+    <main class="main">
+      <h1 class="visually-hidden">Main content</h1>
+      <div class="container">
+        <section class="portfolio">
+          <h2 class="visually-hidden">Portfolio section</h2>
+          <ul class="portfolio-filters flex">
+            <li class="portfolio-filters__item">
+              <button type="button" class="tab-button active">All</button>
+            </li>
+            <li class="portfolio-filters__item">
+              <button type="button" class="tab-button">Web Site</button>
+            </li>
+            <li class="portfolio-filters__item">
+              <button type="button" class="tab-button">App</button>
+            </li>
+            <li class="portfolio-filters__item">
+              <button type="button" class="tab-button">Design</button>
+            </li>
+            <li class="portfolio-filters__item">
+              <button type="button" class="tab-button">Marketing</button>
+            </li>
+          </ul>
+          <ul class="portfolio-list grid">
+            <li class="portfolio-list__item">
+              <figure class="portfolio-project">
+                <img
+                  src="images/portfolio/1.jpg"
+                  alt="banking app ui"
+                  class="portfolio-project__img"
+                  loading="lazy"
+                />
+                <figcaption class="portfolio-project__descr">
+                  <h3 class="portfolio-project__name">
+                    Banking App Interface Concept
+                  </h3>
+                  <p class="portfolio-project__category">App</p>
+                </figcaption>
+              </figure>
+            </li>
+            <li class="portfolio-list__item">
+              <figure class="portfolio-project">
+                <img
+                  src="images/portfolio/2.jpg"
+                  alt="Cashless Payment"
+                  class="portfolio-project__img"
+                  loading="lazy"
+                />
+                <figcaption class="portfolio-project__descr">
+                  <h3 class="portfolio-project__name">Cashless Payment</h3>
+                  <p class="portfolio-project__category">Marketing</p>
+                </figcaption>
+              </figure>
+            </li>
+            <li class="portfolio-list__item">
+              <figure class="portfolio-project">
+                <img
+                  src="images/portfolio/3.jpg"
+                  alt="meditation app ui"
+                  class="portfolio-project__img"
+                  loading="lazy"
+                />
+                <figcaption class="portfolio-project__descr">
+                  <h3 class="portfolio-project__name">Meditation App</h3>
+                  <p class="portfolio-project__category">App</p>
+                </figcaption>
+              </figure>
+            </li>
+            <li class="portfolio-list__item">
+              <figure class="portfolio-project">
+                <img
+                  src="images/portfolio/4.jpg"
+                  alt="cab driver"
+                  class="portfolio-project__img"
+                  loading="lazy"
+                />
+                <figcaption class="portfolio-project__descr">
+                  <h3 class="portfolio-project__name">Taxi Service</h3>
+                  <p class="portfolio-project__category">Marketing</p>
+                </figcaption>
+              </figure>
+            </li>
+            <li class="portfolio-list__item">
+              <figure class="portfolio-project">
+                <img
+                  src="images/portfolio/5.jpg"
+                  alt="backgrounds for mobile screen"
+                  class="portfolio-project__img"
+                  loading="lazy"
+                />
+                <figcaption class="portfolio-project__descr">
+                  <h3 class="portfolio-project__name">Screen Illustrations</h3>
+                  <p class="portfolio-project__category">Design</p>
+                </figcaption>
+              </figure>
+            </li>
+            <li class="portfolio-list__item">
+              <figure class="portfolio-project">
+                <img
+                  src="images/portfolio/6.jpg"
+                  alt="the girl with the glasses is looking at her phone"
+                  class="portfolio-project__img"
+                  loading="lazy"
+                />
+                <figcaption class="portfolio-project__descr">
+                  <h3 class="portfolio-project__name">Online Courses</h3>
+                  <p class="portfolio-project__category">Marketing</p>
+                </figcaption>
+              </figure>
+            </li>
+            <li class="portfolio-list__item">
+              <figure class="portfolio-project">
+                <img
+                  src="images/portfolio/7.jpg"
+                  alt="Instagram Stories Concept (design)"
+                  class="portfolio-project__img"
+                  loading="lazy"
+                />
+                <figcaption class="portfolio-project__descr">
+                  <h3 class="portfolio-project__name">
+                    Instagram Stories Concept
+                  </h3>
+                  <p class="portfolio-project__category">Design</p>
+                </figcaption>
+              </figure>
+            </li>
+            <li class="portfolio-list__item">
+              <figure class="portfolio-project">
+                <img
+                  src="images/portfolio/8.jpg"
+                  alt="woman with a bag of healthy vegetables"
+                  class="portfolio-project__img"
+                  loading="lazy"
+                />
+                <figcaption class="portfolio-project__descr">
+                  <h3 class="portfolio-project__name">Organic Food</h3>
+                  <p class="portfolio-project__category">Web Site</p>
+                </figcaption>
+              </figure>
+            </li>
+            <li class="portfolio-list__item">
+              <figure class="portfolio-project">
+                <img
+                  src="images/portfolio/9.jpg"
+                  alt="A barista makes a cappuccino"
+                  class="portfolio-project__img"
+                  loading="lazy"
+                />
+                <figcaption class="portfolio-project__descr">
+                  <h3 class="portfolio-project__name">Fresh Coffee</h3>
+                  <p class="portfolio-project__category">Web Site</p>
+                </figcaption>
+              </figure>
+            </li>
+          </ul>
+        </section>
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-text">
+          <a href="#!" class="footer__logo logo">
+            <span class="header__logo-highlighted">Web</span>Studio
+          </a>
+          <p class="footer__descr">
+            Increase the flow of customers and sales for your business with
+            digital marketing & growth solutions.
+          </p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

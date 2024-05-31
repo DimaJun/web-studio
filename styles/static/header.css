@@ -1,0 +1,39 @@
+/* Header */
+.header {
+    padding-block: 25px;
+}
+
+.header .container,
+.header-navigation,
+.header-nav__list,
+.header-info {
+    align-items: center;
+}
+
+.header-navigation {
+    column-gap: 76px;
+}
+
+.header-nav__list,
+.header-info {
+    column-gap: 40px;
+}
+
+.header .container {
+    justify-content: space-between;
+}
+
+.header__logo-highlighted {
+    color: var(--color-iris);
+}
+
+.header-nav__link {
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.32px;
+}
+
+.header__mail,
+.header__tel {
+    color: var(--color-slate);
+}

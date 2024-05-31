@@ -1,0 +1,16 @@
+:root {
+    --font-family-base: 'Roboto', sans-serif;
+    --font-family-second: 'Raleway', sans-serif;
+
+    --color-navy-blue: #2E2F42;
+    --color-slate: #434455;
+    --color-iris: #4D5AE5;
+    --color-white: #fff;
+    --color-cloud: #F4F4FD;
+    --color-cornflower: #E7E9FC;
+    --color-ocean: #404BBF;
+
+    --transition-duration: 0.3s;
+    --container-paddings: 15px;
+    --container-width: calc(1128px + (var(--container-paddings) * 2))
+}

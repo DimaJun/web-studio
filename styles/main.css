@@ -1,92 +1,8 @@
+@import 'static/header.css';
+@import 'static/footer.css';
 @import 'normalize.css';
-
-:root {
-    --font-family-base: 'Roboto', sans-serif;
-    --font-family-second: 'Raleway', sans-serif;
-
-    --color-navy-blue: #2E2F42;
-    --color-slate: #434455;
-    --color-iris: #4D5AE5;
-    --color-white: #fff;
-    --color-cloud: #F4F4FD;
-
-    --container-paddings: 15px;
-    --container-width: calc(1128px + (var(--container-paddings) * 2))
-}
-
-body {
-    font-family: var(--font-family-base);
-    font-size: 16px;
-    font-weight: 400;
-}
-
-a {
-    color: var(--color-navy-blue);
-    text-decoration: none;
-}
-
-.logo {
-    font-family: var(--font-family-second);
-    font-weight: 800;
-    font-size: 18px;
-    line-height: 21px;
-    text-transform: uppercase;
-}
-
-.flex {
-    display: flex;
-}
-
-.grid {
-    display: grid;
-}
-
-.container {
-    width: var(--container-width);
-    padding-inline: var(--container-paddings);
-    margin: 0 auto;
-}
-
-/* Header */
-.header {
-    padding-block: 25px;
-}
-
-.header .container,
-.header-navigation,
-.header-nav__list,
-.header-info {
-    align-items: center;
-}
-
-.header-navigation {
-    column-gap: 76px;
-}
-
-.header-nav__list,
-.header-info {
-    column-gap: 40px;
-}
-
-.header .container {
-    justify-content: space-between;
-}
-
-.header__logo-highlighted {
-    color: var(--color-iris);
-}
-
-.header-nav__link {
-    font-weight: 500;
-    line-height: 24px;
-    letter-spacing: 0.32px;
-}
-
-.header__mail,
-.header__tel {
-    color: var(--color-slate);
-}
-
+@import 'static/vars.css';
+@import 'static/default.css';
 
 /* hero */
 .hero {
@@ -232,27 +148,4 @@ a {
     border-radius: 50%;
     background-color: var(--color-iris);
     color: var(--color-cloud);
-}
-
-/* Footer */
-
-.footer {
-    padding-block: 100px;
-    background-color: var(--color-navy-blue);
-    color: var(--color-cloud);
-}
-
-.footer-text {
-    max-width: 264px;
-}
-
-.footer__logo {
-    display: inline-block;
-    margin-bottom: 16px;
-    color: var(--color-white);
-}
-
-.footer__descr {
-    line-height: 1.5;
-    letter-spacing: 0.32px;
 }

@@ -1,0 +1,51 @@
+@import "vars.css";
+
+* {
+    transition-duration: var(--transition-duration);
+}
+
+body {
+    font-family: var(--font-family-base);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+a {
+    color: var(--color-navy-blue);
+    text-decoration: none;
+}
+
+.logo {
+    font-family: var(--font-family-second);
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 21px;
+    text-transform: uppercase;
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+.flex {
+    display: flex;
+}
+
+.grid {
+    display: grid;
+}
+
+.container {
+    width: var(--container-width);
+    padding-inline: var(--container-paddings);
+    margin: 0 auto;
+}
