@@ -6,6 +6,10 @@
     color: var(--color-cloud);
 }
 
+.footer .container {
+    column-gap: 120px;
+}
+
 .footer-text {
     max-width: 264px;
 }
@@ -19,4 +23,22 @@
 .footer__descr {
     line-height: 1.5;
     letter-spacing: 0.32px;
+}
+
+.footer-socials__title {
+    font-weight: 500;
+    margin-bottom: 16px;
+}
+
+.footer-socials-list {
+    column-gap: 16px;
+}
+
+.footer-socials__link {
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    background-color: var(--color-iris);
+    border-radius: 50%;
 }
