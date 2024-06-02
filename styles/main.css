@@ -6,7 +6,11 @@
 
 /* hero */
 .hero {
-    background-color: var(--color-navy-blue);
+    background: url("../images/hero-bg.jpg") center/cover no-repeat;
+}
+
+.overlay {
+    background-color: var(--color-grey-70);
     padding-block: 188px;
     text-align: center;
 }
@@ -45,6 +49,12 @@
 .benefits-list {
     grid-template-columns: repeat(4, 1fr);
     column-gap: 24px;
+}
+
+.benefits-card__icon {
+    background-color: var(--color-cloud);
+    padding: 24px 100px;
+    margin-bottom: 8px;
 }
 
 .benefits-card__title {
