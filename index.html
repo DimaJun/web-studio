@@ -46,10 +46,15 @@
 
     <main class="main">
       <section class="hero">
+        <div id="modal" class="modal">
+          <div class="modal-content">
+            <span id="closeModalBtn" class="close">&times;</span>
+          </div>
+        </div>
         <div class="overlay">
           <div class="container">
             <h1 class="hero__title">Effective Solutions for Your Business</h1>
-            <button class="hero__button" type="button">Order Service</button>
+            <button class="hero__button" type="button" id="openModalBtn">Order Service</button>
           </div>
         </div>
       </section>
@@ -994,5 +999,7 @@
         </div>
       </div>
     </footer>
+    
+    <script src="js/index.js"></script>
   </body>
 </html>
