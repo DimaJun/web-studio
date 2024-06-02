@@ -23,10 +23,14 @@
     border: 1px solid rgba(0,0,0, .2);
     width: 408px;
     height: 584px;
+    border-radius: 4px;
+}
+.close-wrapper {
+    display: flex;
+    justify-content: flex-end;
 }
 .close {
     color: #aaa;
-    float: right;
     font-size: 18px;
     width: 24px;
     height: 24px;
@@ -44,6 +48,98 @@
     cursor: pointer;
 }
 
+.modal__title {
+    padding-block: 24px 16px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: .32px;
+    text-align: center;
+}
+
+.modal-form-input__name,
+.privacy-text {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 1.15;
+    letter-spacing: 0.36px;
+    margin-bottom: 4px;
+    color: var(--color-light-slate);
+}
+
+.modal-form__label {
+    display: flex;
+    align-items: center;
+    border: 1px solid var(--color-navy-blue-modal-40);
+    border-radius: 4px;
+    padding: 8px 16px;
+}
+
+.modal-form__label:focus-within,
+.modal-form__textarea:focus {
+    border-color: var(--color-iris);
+}
+
+.modal-form__label:focus-within .modal-form-input__icon path {
+    fill: var(--color-iris);
+}
+
+.modal-form__label:not(:last-child) {
+    margin-bottom: 8px;
+}
+
+.modal-form__input {
+    width: 100%;
+    border: 0;
+    outline: 0;
+    padding-inline: 5px 0;
+}
+
+.modal-form__textarea {
+    border: 1px solid var(--color-navy-blue-modal-40);
+    border-radius: 4px;
+    outline: none;
+    width: 100%;
+    height: 120px;
+    resize: none;
+    padding: 8px 16px;
+    margin-bottom: 16px;
+}
+
+.modal-form__checkbox {
+    display: flex;
+    align-items: center;
+    margin-bottom: 24px;
+}
+
+.modal-form__checkbox input {
+    margin: 0 8px 0 0;
+}
+
+.privacy-text {
+    margin: 0;
+}
+
+.privacy__link {
+    color: var(--color-iris);
+    text-decoration: underline;
+}
+
+.modal-form__button {
+    width: 169px;
+    height: 56px;
+    padding: 16px 32px;
+    border: 0;
+    background-color: var(--color-iris);
+    margin-left: 96px;
+    font-weight: 500;
+    color: var(--color-white);
+    cursor: pointer;
+}
+
+.modal-form__button:hover{
+    background-color: var(--color-ocean);
+}
 /* hero */
 .hero {
     background: url("../images/hero-bg.jpg") center/cover no-repeat;
