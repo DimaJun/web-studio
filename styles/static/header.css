@@ -1,6 +1,6 @@
 /* Header */
 .header {
-    padding-block: 25px;
+    padding-block: 26px;
 }
 
 .header .container,
@@ -31,6 +31,13 @@
     font-weight: 500;
     line-height: 24px;
     letter-spacing: 0.32px;
+    border-bottom: 4px solid transparent;
+    border-radius: 2px;
+    padding-block: 24px;
+}
+
+.header-nav__link.active {
+    border-color: var(--color-ocean);
 }
 
 .header__mail,

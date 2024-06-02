@@ -1,4 +1,5 @@
 window.addEventListener('DOMContentLoaded', () => {
+    // modal
     const modal = document.querySelector("#modal");
     const openBtn = document.querySelector('#openModalBtn');
     const closeBtn = document.querySelector('#closeModalBtn');
