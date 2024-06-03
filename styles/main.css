@@ -3,6 +3,7 @@
 @import 'normalize.css';
 @import 'static/vars.css';
 @import 'static/default.css';
+@import 'media.css';
 
 /* modal */
 .modal {
@@ -325,4 +326,46 @@
     padding: 16px 32px;
     border: 1px solid var(--color-light-slate);
     border-radius: 4px;
+}
+
+@media (max-width: 1168px){
+    .benefits {
+        padding-block: 96px;
+    }
+    .benefits-list {
+        grid-template-columns: repeat(2, auto);
+        row-gap: 72px;
+    }
+    .benefits-card__icon {
+        display: none;
+    }
+    .benefits-card__title {
+        font-size: 36px;
+    }
+    .activity {
+        display: none;
+    }
+    .team {
+        padding-block: 104px;
+    }
+    .team-list {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 64px 24px;
+    }
+    .team__title {
+        margin-bottom: 64px;
+    }
+    .member-socials-list {
+        animation: none !important;
+        opacity: 1;
+    }
+    .customers {
+        padding-block: 96px;
+    }
+    .customers-list {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 72px 24px;
+    }
 }

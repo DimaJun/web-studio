@@ -44,3 +44,13 @@
 .header__tel {
     color: var(--color-slate);
 }
+
+@media (max-width: 870px) {
+    .header {
+        padding-block: 16px;
+    }
+    .header-info {
+        flex-direction: column;
+        row-gap: 12px;
+    }
+}

@@ -74,3 +74,18 @@
 .footer-form__button:hover {
     background-color: var(--color-ocean);
 }
+
+@media (max-width: 1168px) {
+    .footer .container {
+        flex-wrap: wrap;
+        row-gap: 72px;
+        column-gap: 24px;
+        justify-content: center;
+    }
+    .footer-text {
+        margin: 0;
+    }
+    .footer-socials {
+        margin: 0;
+    }
+}
