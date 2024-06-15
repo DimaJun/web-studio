@@ -3,7 +3,6 @@
 @import 'normalize.css';
 @import 'static/vars.css';
 @import 'static/default.css';
-@import 'media.css';
 
 /* modal */
 .modal {
@@ -367,5 +366,20 @@
         flex-wrap: wrap;
         justify-content: center;
         gap: 72px 24px;
+    }
+}
+
+@media (max-width: 660px) {
+    .header__nav,
+    .header-info {
+        display: none;
+    }
+    
+    .burger {
+        display: block;
+    }
+
+    .benefits-list {
+        grid-template-columns: repeat(1, 1fr);
     }
 }

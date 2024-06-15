@@ -9,10 +9,134 @@
       href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,800;1,800&family=Roboto:wght@400;500;700&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="styles/main.css" />
+    <link rel="stylesheet" type="text/css" href="styles/main.css" />
     <title>WebStudio</title>
   </head>
   <body>
+    <div id="burgerMenu" class="overlay-burger">
+      <a href="#" class="close-burger">
+        <svg
+          width="8"
+          height="8"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M8 .806 7.194 0 4 3.194.806 0 0 .806 3.194 4 0 7.194.806 8 4 4.806 7.194 8 8 7.194 4.806 4 8 .806z"
+            fill="#2E2F42"
+          />
+        </svg>
+      </a>
+      <div class="overlay-content flex">
+        <div class="burger-menu-links">
+          <a href="index.html" class="burger-menu__link">Studio</a>
+          <a href="portfolio.html" class="burger-menu__link">Portfolio</a>
+          <a href="#!" class="burger-menu__link">Contacts</a>
+        </div>
+        <div class="burger-menu-contact-methods">
+          <div class="tel-mail flex">
+            <a href="tel:+110001111111" class="burger-menu__tel"
+              >+11 (000) 111-11-11</a
+            >
+            <a href="mailto:info@devstudio.com" class="burger-menu__mail"
+              >info@devstudio.com</a
+            >
+          </div>
+
+          <ul class="burger-socials-list flex">
+            <li class="burger-socials__item">
+              <a href="#!" class="burger-socials__link">
+                <svg
+                  width="16"
+                  height="16"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <g clip-path="url(#a)" fill="#F4F4FD">
+                    <path
+                      d="M15.984 4.704c-.037-.85-.175-1.435-.372-1.941a3.905 3.905 0 0 0-.925-1.419 3.938 3.938 0 0 0-1.416-.922c-.51-.197-1.09-.335-1.94-.372C10.473.01 10.2 0 8.03 0 5.857 0 5.585.01 4.732.047c-.85.037-1.434.175-1.94.372a3.904 3.904 0 0 0-1.42.925A3.94 3.94 0 0 0 .45 2.76C.253 3.27.116 3.85.078 4.7c-.04.857-.05 1.13-.05 3.301 0 2.173.01 2.445.047 3.298.037.85.175 1.435.372 1.941.203.538.519 1.019.925 1.42.4.405.885.721 1.416.921.51.197 1.09.335 1.941.372.853.038 1.125.047 3.298.047 2.172 0 2.444-.01 3.297-.047.85-.037 1.435-.175 1.941-.372a4.093 4.093 0 0 0 2.341-2.34c.197-.51.335-1.092.372-1.942.038-.853.047-1.125.047-3.297 0-2.173-.003-2.445-.04-3.298Zm-1.44 6.532c-.035.782-.166 1.204-.276 1.485a2.655 2.655 0 0 1-1.519 1.52c-.281.109-.706.24-1.484.274-.844.038-1.097.047-3.232.047-2.135 0-2.391-.01-3.232-.047-.782-.034-1.204-.165-1.485-.275a2.462 2.462 0 0 1-.919-.597 2.487 2.487 0 0 1-.597-.919c-.11-.281-.24-.706-.275-1.484-.037-.844-.047-1.098-.047-3.232 0-2.135.01-2.391.047-3.232.035-.782.166-1.203.275-1.485.128-.347.332-.662.6-.919.26-.265.572-.469.92-.597.28-.11.706-.24 1.484-.275.844-.037 1.097-.047 3.232-.047 2.138 0 2.39.01 3.232.047.781.035 1.203.166 1.484.275.347.128.663.332.92.597.265.26.468.572.596.92.11.28.241.706.275 1.484.038.844.047 1.097.047 3.232 0 2.135-.009 2.385-.046 3.229Z"
+                    />
+                    <path
+                      d="M8.03 3.891a4.111 4.111 0 0 0 0 8.22 4.111 4.111 0 0 0 0-8.22Zm0 6.777a2.667 2.667 0 1 1 0-5.334 2.667 2.667 0 0 1 0 5.334ZM13.262 3.729a.96.96 0 1 1-1.92 0 .96.96 0 0 1 1.92 0Z"
+                    />
+                  </g>
+                  <defs>
+                    <clipPath>
+                      <path fill="#fff" d="M0 0h16v16H0z" />
+                    </clipPath>
+                  </defs>
+                </svg>
+              </a>
+            </li>
+            <li class="burger-socials__item">
+              <a href="#!" class="burger-socials__link">
+                <svg
+                  width="16"
+                  height="16"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <g clip-path="url(#a)">
+                    <path
+                      d="M16 3.039a6.839 6.839 0 0 1-1.89.518 3.262 3.262 0 0 0 1.443-1.813 6.555 6.555 0 0 1-2.08.794A3.28 3.28 0 0 0 7.799 4.78c0 .26.022.51.076.748a9.284 9.284 0 0 1-6.761-3.431 3.285 3.285 0 0 0 1.008 4.384A3.24 3.24 0 0 1 .64 6.078v.036a3.295 3.295 0 0 0 2.628 3.223 3.274 3.274 0 0 1-.86.108 2.9 2.9 0 0 1-.621-.056 3.311 3.311 0 0 0 3.065 2.285 6.59 6.59 0 0 1-4.067 1.399c-.269 0-.527-.012-.785-.045A9.234 9.234 0 0 0 5.032 14.5c6.036 0 9.336-5 9.336-9.334 0-.145-.005-.285-.012-.424A6.544 6.544 0 0 0 16 3.039Z"
+                      fill="#F4F4FD"
+                    />
+                  </g>
+                  <defs>
+                    <clipPath>
+                      <path fill="#fff" d="M0 0h16v16H0z" />
+                    </clipPath>
+                  </defs>
+                </svg>
+              </a>
+            </li>
+            <li class="burger-socials__item">
+              <a href="#!" class="burger-socials__link">
+                <svg
+                  width="16"
+                  height="16"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <g clip-path="url(#a)">
+                    <path
+                      d="M10.665 2.657h1.46V.113A18.862 18.862 0 0 0 9.997 0C7.891 0 6.45 1.325 6.45 3.76V6H4.125v2.844h2.324V16h2.849V8.845h2.23L11.882 6H9.297V4.04c.001-.822.222-1.384 1.368-1.384Z"
+                      fill="#F4F4FD"
+                    />
+                  </g>
+                  <defs>
+                    <clipPath>
+                      <path fill="#fff" d="M0 0h16v16H0z" />
+                    </clipPath>
+                  </defs>
+                </svg>
+              </a>
+            </li>
+            <li class="burger-socials__item">
+              <a href="#!" class="burger-socials__link">
+                <svg
+                  width="16"
+                  height="16"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <g clip-path="url(#a)" fill="#F4F4FD">
+                    <path
+                      d="M15.996 16H16V10.13c0-2.87-.618-5.082-3.974-5.082-1.613 0-2.696.886-3.138 1.725h-.047V5.317H5.66V16h3.314V10.71c0-1.393.264-2.74 1.988-2.74 1.7 0 1.725 1.59 1.725 2.83V16h3.31ZM.264 5.318h3.317V16H.264V5.318ZM1.921 0C.861 0 0 .86 0 1.92c0 1.06.86 1.94 1.921 1.94s1.922-.88 1.922-1.94C3.842.861 2.98 0 1.92 0Z"
+                    />
+                  </g>
+                  <defs>
+                    <clipPath>
+                      <path fill="#fff" d="M0 0h16v16H0z" />
+                    </clipPath>
+                  </defs>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
     <header class="header">
       <div class="container flex">
         <div class="header-navigation flex">
@@ -32,6 +156,32 @@
               </li>
             </ul>
           </nav>
+        </div>
+        <div class="burger">
+          <button class="open-burger">
+            <svg
+              width="32"
+              height="22"
+              viewBox="0 0 32 22"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <g clip-path="url(#clip0_297053_2156)">
+                <path
+                  d="M1.34766 20.0431H30.8861M1.34766 10.7354H30.8861M1.34766 1.42773H30.8861"
+                  stroke="#2E2F42"
+                  stroke-width="3"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </g>
+              <defs>
+                <clipPath id="clip0_297053_2156">
+                  <rect width="32" height="22" fill="white" />
+                </clipPath>
+              </defs>
+            </svg>
+          </button>
         </div>
         <div class="header-info flex">
           <a href="mailto:info@devstudio.com" class="header__mail"
@@ -1139,5 +1289,6 @@
 
     <script src="js/modal.js"></script>
     <script src="js/links.js"></script>
+    <script src="js/burger.js"></script>
   </body>
 </html>

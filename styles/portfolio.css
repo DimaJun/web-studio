@@ -1,8 +1,8 @@
-@import "static/header.css";
-@import "static/footer.css";
 @import "normalize.css";
 @import "static/vars.css";
 @import "static/default.css";
+@import "static/header.css";
+@import "static/footer.css";
 
 /* elements */
 
@@ -51,6 +51,7 @@
   justify-content: center;
   column-gap: 24px;
   margin-bottom: 72px;
+  flex-wrap: wrap;
 }
 
 .portfolio-list {
@@ -78,5 +79,12 @@
   .portfolio-list {
     grid-template-columns: repeat(2, 1fr);
     justify-items: center;
+  }
+}
+
+
+@media (max-width: 624px) {
+  .portfolio-filters {
+    row-gap: 20px;
   }
 }
